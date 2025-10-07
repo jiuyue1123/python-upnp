@@ -14,6 +14,9 @@ miniupnpc>=2.2.2
 # subprocess
 # datetime
 
+# 构建依赖
+pyinstaller>=5.0             # 打包工具
+
 # 可选依赖 - 用于未来功能扩展
 # requests>=2.25.1          # HTTP请求库，用于DDNS更新
 # cryptography>=3.4.8       # 加密库，用于安全连接

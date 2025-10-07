@@ -28,6 +28,7 @@ MANIFEST
 # PyInstaller
 *.manifest
 *.spec
+build*
 
 # Installer logs
 pip-log.txt
@@ -202,6 +203,16 @@ docs/_build/
 local_dev.py
 debug.py
 test_local.py
+
+# 构建文件
+build/
+dist/
+*.spec
+release/
+
+# 构建测试文件
+utf8_test.txt
+build_test/
 
 # 版本控制
 .git/
