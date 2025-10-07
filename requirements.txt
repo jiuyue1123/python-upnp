@@ -1,0 +1,27 @@
+# UPnP 端口映射工具依赖包
+
+# 核心UPnP库
+miniupnpc>=2.2.2
+
+# GUI界面库 (Python内置，无需安装)
+# tkinter
+
+# 网络和系统库 (Python内置，无需安装)
+# socket
+# threading
+# queue
+# re
+# subprocess
+# datetime
+
+# 可选依赖 - 用于未来功能扩展
+# requests>=2.25.1          # HTTP请求库，用于DDNS更新
+# cryptography>=3.4.8       # 加密库，用于安全连接
+# schedule>=1.1.0           # 定时任务库，用于定时更新
+# configparser>=5.0.0       # 配置文件解析
+# PyYAML>=5.4.1             # YAML配置文件支持
+
+# 开发依赖 (可选)
+# pytest>=6.2.4            # 测试框架
+# black>=21.6b0             # 代码格式化
+# flake8>=3.9.2             # 代码检查
